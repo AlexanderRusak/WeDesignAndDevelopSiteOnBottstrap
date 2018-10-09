@@ -17,6 +17,7 @@ p
   font-weight: 500;
   letter-spacing: 0;
 
+
 }
 
 a {
@@ -71,7 +72,7 @@ a {
   border-radius: 0px;
   border:none;
   font-size: 12px;
-  height: 50px;
+  height: 54px;
   font-weight:600;
   text-transform: uppercase;
 }
@@ -92,12 +93,29 @@ a {
 }
 .about{
 margin-top: 100px;
+font-size: 30px;
 }
 .aboutText p{
   font-size: 16px;
   color: #787878;
-  text-align: center;
-
-
-
+}
+.signature div img{
+  margin-top: 40px;
+  padding-bottom: 100px;
+}
+.skills{
+  margin-top: 150px;
+.grey{
+  background-color: red;
+}
+}
+.bars{
+  margin-top: 10px;
+}
+.bars div div{
+  height: 3px;
+}
+.progress-bar {
+  background-color: #10c9c3;
+  box-shadow: #d8d8d8;
 }
