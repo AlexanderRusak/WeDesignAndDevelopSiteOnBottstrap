@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+html {
+  overflow-x: hidden; }
+
 body {
+  width: 100%;
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch; }
 
@@ -89,16 +93,35 @@ a {
 
 .skills {
   margin-top: 150px; }
-  .skills .grey {
-    background-color: red; }
+
+.grey {
+  background-color: #f8f9f9;
+  padding-bottom: 150px; }
+
+.grey2 {
+  background-color: #e9e9e9;
+  height: 100%; }
 
 .bars {
   margin-top: 10px; }
 
+.bars p {
+  padding-top: 15px; }
+
+.bars p text {
+  margin-left: 15px; }
+
 .bars div div {
   height: 3px; }
+
+.progress {
+  height: 3px;
+  width: 500px; }
 
 .progress-bar {
   background-color: #10c9c3;
   -webkit-box-shadow: #d8d8d8;
   box-shadow: #d8d8d8; }
+
+.hovercolor {
+  background-color: #10c9c3; }
